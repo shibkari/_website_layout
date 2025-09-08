@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Макет</title>
+  <link href="vendors/bootstrap-5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header class="container my-3">
+    <div class="row mb-4">
+      <div class="col bg-light text-center py-3">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Музична Пауза</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Головна</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Новини</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Мерч</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Виступи
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Ціни</a></li>
+                    <li><a class="dropdown-item" href="#">Місця</a></li>
+                    <li><a class="dropdown-item" href="#">Дізнатися більше</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="container mb-3">
+    <div class="row justify-content-center align-items-start">
+      <aside class="col-xxl-3 col-12 mb-4 order-xxl-1 order-1">
+        <!-- Карусель -->
+        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+              aria-label="Slide 4"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="img/FatboySlim-Facebook.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="img/underworld-barbara-barbara-new-album-interview.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/Moby.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="img/WEBSITE.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </aside>
+      <section class="col-xxl-6 col-12 mb-4 order-xxl-2 order-2">
+        <div class="accordion" id="accordion-id-1">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+                Moby
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordion-id-1">
+              <div class="accordion-body">
+                American producer, DJ, and singer/songwriter Moby is one of the most important, successful, and
+                outspoken figures in electronic music, though his work spans a variety of rock and pop styles as well.
+                His crossover success during the 1990s helped bring techno into the mainstream and established him as a
+                progenitor to the crop of superstar DJs that would define the next wave of popular electronic music. At
+                the peak of his breakthrough visibility, he courted controversy for putting a public face to the
+                notoriously anonymous electronic genre and attracting scorn from techno purists.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Underworld
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordion-id-1">
+              <div class="accordion-body">
+                Underworld are Rick Smith and Karl Hyde. Their peerless first album - dubnobasswithmyheadman - was
+                released to universal acclaim in 1994. In the thirty years since that mould breaking debut, the band
+                have established their reputation as one of the most groundbreaking and important electronic acts of all
+                time, one that constantly pushes creative boundaries, twists genres and refuses to stay still. In those
+                thirty years, their music has soundtracked approximately 100,000,000 nights out, and the mornings after.
+                In the past year alone, Underworld have played live in front of over half a million people all across
+                the globe.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Fatboy Slim
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordion-id-1">
+              <div class="accordion-body">
+                He loves it more now then he did 40 years ago and whilst things have certainly changed a thousand times
+                or more what drives him and keeps his thirst for it is the power of the collective unity and community
+                that a shared musical experience can have.When he goes on stage he is no longer Norman Cook he is Fatboy
+                Slim with the Hawaiian Shirt and the bare feet where he gives it his all as a performer and a showman
+                and in his words a professional idiot!
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <aside class="col-xxl-3 col-12 mb-4 order-xxl-3 order-3">
+        <form class="row g-3">
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Електронна пошта</label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="name@example.com">
+          </div>
+          <div class="col-md-6">
+            <label for="inputPassword4" class="form-label">Пароль</label>
+            <input type="password" class="form-control" id="inputPassword4" placeholder="Введіть пароль">
+          </div>
+          <div class="col-12">
+            <label for="inputAddress" class="form-label">Адреса</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="вул. Шевченка, 12">
+          </div>
+          <div class="col-12">
+            <label for="inputAddress2" class="form-label">Додаткова адреса</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Квартира, студія або поверх">
+          </div>
+          <div class="col-md-6">
+            <label for="inputCity" class="form-label">Місто</label>
+            <input type="text" class="form-control" id="inputCity" placeholder="Київ">
+          </div>
+          <div class="col-md-4">
+            <label for="inputState" class="form-label">Область</label>
+            <select id="inputState" class="form-select">
+              <option selected>Оберіть...</option>
+              <option>Київська</option>
+              <option>Львівська</option>
+              <option>Одеська</option>
+            </select>
+          </div>
+          <div class="col-md-2">
+            <label for="inputZip" class="form-label">Поштовий індекс</label>
+            <input type="text" class="form-control" id="inputZip" placeholder="01001">
+          </div>
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">
+                Погоджуюсь з умовами
+              </label>
+            </div>
+          </div>
+          <div class="col-12 d-flex gap-2">
+            <button type="submit" class="btn btn-primary">Увійти</button>
+            <button type="button" class="btn btn-success">Зареєструватися</button>
+          </div>
+        </form>
+      </aside>
+    </div>
+  </main>
+
+  <div class="row mb-3">
+    <footer class="col">
+      <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <p class="col-md-4 mb-0 text-body-secondary">© 2025 Музична пауза</p>
+          <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Головна</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Особливості</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Ціни</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Питання</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Про нас</a></li>
+          </ul>
+        </footer>
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
