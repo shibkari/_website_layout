@@ -1,13 +1,37 @@
-### Custom .gitignore template
-# Folders
-.idea/
-.vscode/
+# ========================
+# Node.js / Frontend stuff
+# ========================
 node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+package-lock.json
+yarn.lock
+
+# Build / dist folders
 dist/
 build/
+.cache/
+.tmp/
 
-# Files
+# Astro
+.output/
+.astro/
+
+# ========================
+# Jekyll
+# ========================
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# ========================
+# OS / Editors
+# ========================
 .DS_Store
-*.log
-*.js.map
-*.d.ts
+Thumbs.db
+.vscode/
+.idea/
+*.swp
